@@ -1,0 +1,51 @@
+.banner {
+    width: 95%;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 4px solid transparent; /* #6D21E9 #271D38; */
+    border-image: linear-gradient(45deg, #6d21e9, #4600B9);
+    border-image-slice: 1;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #9189eb 0%, #f67493 100%);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .bannerImagem {
+    height: 450px;
+    width: 300px;
+    margin-right: 80px;
+    
+  }
+  .bannerImagem > img {
+    height: inherit;
+    width: inherit;
+  border-radius: 10px;
+  }
+  
+  .bannerTextos {
+    width: auto;
+    height: 450px;
+    color: #fff;
+    font-weight: 900;
+  }
+  .bannerTextos> p:nth-child(1) {
+    margin-bottom: 55px;
+    font-size: 64px;
+  }
+  .bannerTextos> p:nth-child(2) {
+    margin-bottom: 10px;
+    font-size: 48px;
+  }
+  .bannerTextos> p:nth-child(2)>span {
+    text-decoration: line-through;
+  }
+  .bannerTextos> p:nth-child(3) {
+    margin-bottom: 10px;
+    font-size: 64px;
+  }

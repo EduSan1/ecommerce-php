@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/banner.css" />
+    <link rel="stylesheet" href="./style/produtos.css" />
+    <link rel="stylesheet" href="./style/cards.css" />
+    <link rel="stylesheet" href="./style/filtro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,17 +31,134 @@
     <section id="home" class="home">
       <div class="banner">
         <div class="bannerImagem">
-          <img src="./img/haikyu_vol1.jpg" alt="">
+          <img src="./img/haikyu_vol1.jpg" alt="" />
         </div>
-        <div class="bannertexto"></div>
+        <div class="bannerTextos">
+          <p>Haikyu!! Vol 1</p>
+          <p>de: <span>R$ 49,90</span></p>
+          <p>por: R$ 34,90</p>
+        </div>
       </div>
       <div class="produtos">
-        <div class="filtro"></div>
-        <div class="mangas"></div>
+        <div class="filtro">
+          <input type="text" placeholder="Pesquisar..." class="caixaTexto" />
+          <div class="filtroEditora">
+            <p>Editora</p>
+            <div class="checkbox">
+              <input type="checkbox" name="chkJbc" value="jbc" />
+              <p>JBC</p>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="chkPanini" value="panini" />
+              <p>Panini</p>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="chkNewPop" value="newPop" />
+              <p>New Pop</p>
+            </div>
+          </div>
+          <div class="filtroPreco">
+            <p>Preço</p>
+            <div class="radio">
+              <input type="radio" name="rdoPreco" value="10" />
+              <p>até R$ 10,00</p>
+            </div>
+            <div class="radio">
+              <input type="radio" name="rdoPreco" value="20" />
+              <p>até R$ 20,00</p>
+            </div>
+            <div class="radio">
+              <input type="radio" name="rdoPreco" value="30" />
+              <p>até R$ 30,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 39,90</p>
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div> -->
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImage">
+              <img src="./img/haikyu_vol1.jpg" alt="" />
+            </div>
+            <div class="cardTextos">
+              <p>Haikyu!!, Vol 1</p>
+              <div class="textoPreco">
+                <p>R$ 49,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="promocao" class="promocao"></section>
+    <section id="promocao" class="promocao">
+      
+    </section>
 
     <section id="sobre" class="sobre"></section>
   </body>

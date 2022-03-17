@@ -1,0 +1,88 @@
+.cards {
+    width: 1450px;
+    height: inherit;
+    min-height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: initial;
+    gap: 0px 47px;
+    
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    overflow: auto;
+    background-color: ivory;
+    /* margin: 5px 0px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #6D21E9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cardImage {
+    width: 150px;
+    height: 220px;
+    margin-bottom: 20px;
+    
+}
+.cardImage:hover {
+    cursor: pointer;
+}
+.cardImage > img {
+    height: inherit;
+    width: inherit;
+    border: 2px solid #6D21E9;
+  }
+
+.cardTextos {
+    width: 200px;
+    height: 150px;
+}
+
+.cardTextos > p {
+    cursor: pointer;
+}
+.cardTextos > p:nth-child(1) {
+    margin-bottom: 40px;
+    color: #6D21E9;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.cardTextos > p:hover {
+    cursor: pointer;
+}
+
+.textoPreco > p:hover {
+    cursor: pointer;
+}
+
+.textoPreco {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textoPreco > p:nth-child(1) {
+    color: #510CA8;
+    font-size: 26px;
+    margin-right: 10px;
+    font-weight: 500;
+
+}
+
+.textoPreco > p:nth-child(2) {
+    text-decoration: line-through;
+    color: #510CA8;
+    
+}
+

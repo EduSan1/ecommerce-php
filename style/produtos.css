@@ -1,0 +1,9 @@
+.produtos {
+    width: 95%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    
+}
