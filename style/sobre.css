@@ -1,0 +1,81 @@
+.sobre {
+    width: 100%;
+    height: 50vh;
+    background-color: #5B429F;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobreTexto {
+    width: 40%;
+    height: 80%;
+}
+
+.sobreTexto > p {
+    font-size: clamp(1rem, 3vh , 1.5rem);
+    color: whitesmoke;
+    margin-bottom: 2vh;
+}
+
+.sobreTexto > ul > li {
+    
+    margin-left: 2vw;
+    font-size: clamp(1rem, 3vh , 1.5rem);
+    color: whitesmoke;
+    margin-bottom: 1vh;
+}
+
+.sobreContatos{
+    width: 60%;
+    height: 100%;
+    background-color: #F5F5F5;
+    border: 4px solid #510CA8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sobreContatos > p{
+    font-size: clamp(1rem, 3vh , 1.5rem);
+    font-weight: 400;
+    color: #510CA8;
+
+}
+
+.sobreCaixasTextos{
+    width: 90%;
+    height: 70%;
+    /* background-color: #510CA8; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sobreCaixasTextosDados {
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobreCaixasTextosDados > input {
+    width: 48%;
+    height: 80%;
+}
+
+.sobreCaixasTextosMensagem {
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+
+.sobreCaixasTextosMensagem > textarea {
+    width: inherit;
+    height: 100%;
+}
