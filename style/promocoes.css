@@ -1,5 +1,5 @@
 .promocao {
-    width: 100vw;
+    width: inherit;
     height: auto;
     min-height: 100vh;
     background: #8E4355;
@@ -68,7 +68,7 @@
 
 .promocaoCardTextos {
     width: 95%;
-    height: 10vh;
+    height: auto;
     display: flex;
     align-items: left;
     flex-direction: column;
@@ -86,9 +86,9 @@
 }
 .promocaoCardTextoTitulo > p{
     /* text-overflow: ellipsis; */
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
     color: #6D21E9;
-    font-size: clamp(1rem, 3vw , 1.5rem) ;
+    font-size: clamp(1rem, 3vw , 2rem) ;
     text-align: center;
 }
 
@@ -101,24 +101,28 @@
 }
 
 .promocaoTextoPreco {
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: left;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.promocaoTextoPreco > p:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    color: #510CA8;
+    font-size: clamp(1rem, 3vw , 1.8rem) ;
+    margin-right: 10px;
+    font-weight: 400;
 }
 
 .promocaoTextoPreco > p:nth-child(1) {
     width: auto;
-    color: #510CA8;
-    font-size: clamp(1rem, 3vw , 1.2rem) ;
-    margin-right: 10px;
-    font-weight: 500;
-
-}
-
-.promocaoTextoPreco > p:nth-child(2) {
-    width: auto;
+    margin-left: 2vw;
     font-size: clamp(.6rem, 3vw , 1rem) ;
     text-decoration: line-through;
     color: #510CA8;

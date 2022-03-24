@@ -12,10 +12,11 @@
 .sobreTexto {
     width: 40%;
     height: 80%;
+    padding: 2vh 3vw;
 }
 
 .sobreTexto > p {
-    font-size: clamp(1rem, 3vh , 1.5rem);
+    font-size: clamp(.5rem, 3vh , 1rem);
     color: whitesmoke;
     margin-bottom: 2vh;
 }
@@ -23,7 +24,7 @@
 .sobreTexto > ul > li {
     
     margin-left: 2vw;
-    font-size: clamp(1rem, 3vh , 1.5rem);
+    font-size: clamp(.5rem, 3vh , 1rem);
     color: whitesmoke;
     margin-bottom: 1vh;
 }
@@ -65,8 +66,12 @@
     align-items: center;
 }
 .sobreCaixasTextosDados > input {
+    border: 2px solid #6D21E9;
+    border-radius: 7px;
     width: 48%;
     height: 80%;
+    color: #6D21E9;
+    font-size: clamp(0.5rem,3vw,1.5rem);
 }
 
 .sobreCaixasTextosMensagem {
@@ -78,4 +83,25 @@
 .sobreCaixasTextosMensagem > textarea {
     width: inherit;
     height: 100%;
+    border: 2px solid #6D21E9;
+    font-size: clamp(0.5rem,3vw,1.2rem);
+    resize: none;
+    color: #6D21E9;
+}
+
+.sobreBotao {
+    width: 90%;
+    height: 50px;
+    background: linear-gradient(225deg, #9189eb 0%, #f67493 100%);
+    border: 2px solid #6D21E9;
+    border-radius: 4px;
+    font-size: clamp(0.5rem,3vw,1.2rem);
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.sobreBotao:hover {
+    cursor: pointer;
+    background: linear-gradient(225deg, #645fa3 0%, #b4546b 100%);
+    color: #c1c1c1;
 }
